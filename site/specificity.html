@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Inheritance in CSS</title>
+	<style>
+	/* This has 1 class and 2 elements: 10 * 2 = 12;*/
+		header.navigation p {
+			color: blue;
+		}
+		/* This has 1 class and 1 element: 10 * 1 = 11;*/
+		p.blurb {
+			color: red;
+		}
+		/* !important overides other rules*/
+	 p {
+		color: green !important;
+	}	
+	</style>
+
+</head>
+<body>
+
+	<header class="navigation">
+		<p class="blurb">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero soluta enim aut! Nihil nam obcaecati, fugiat sint sit libero voluptate eos incidunt odio neque cum, dignissimos aperiam, magnam nisi debitis.</p>
+	</header>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+/*Write your CSS below!*/
+p {
+    color: #8B1C62;
+	font-family: Cursive;
+}
+
+p#freestyle {
+    color: #FF7256;
+	font-family: Verdana;
+}
+
+span {
+    background-color: #006600;
+    color: #ffffff;
+	font-family: Helvetica;
+}
+
+div div div h3 {
+    color: red;
+}
+
+* {
+    border: 1px dashed #3A5FCD;
+}

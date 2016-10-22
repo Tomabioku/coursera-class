@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+p.intro::first-letter {
+    color: #ff0000;
+    font-size:200%;
+}
+
+h1::before {
+    content: url(smiley.gif);
+}
+
+h1::after {
+    content: url(smiley.gif);
+}
+
+</style>
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>You can use the ::first-letter pseudo-element to add a special effect to the first character of a text!</p>
+<p class="intro">This is an introduction.</p>
+<h1>This is a heading</h1>
+<p>The ::after pseudo-element inserts content after the content of an element.</p>
+
+</body>
+</html>

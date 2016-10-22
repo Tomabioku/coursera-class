@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Module 2 - Responsive Page</title>
+	<style>
+
+	/******** Base styles *********/
+
+	.style {
+			font-family: Arial, Helvetica, sans-serif;
+			color: #0000ff;
+			font-style: italic;
+			font-weight: bold;
+			font-size: 24px;
+			text-transform: uppercase;
+			text-align: right;
+		}	
+
+		* {
+			box-sizing: border-box;
+		}
+		h1 {
+			margin-bottom: 15px;
+			text-align: center;
+		}
+		.section {
+			/**border: 3px solid black;**/
+			background-color: #808080;
+			width: 100%;
+			height: 150px;
+			margin-right: auto;
+			margin-left: auto;
+			font-family: Helvetica;
+			color: white;
+			position: relative;
+			text-align: center;
+		}
+
+		/**div#container {
+			position: relative;
+			top: 60px;
+		}**/
+
+		h2 {
+			float: left;
+			position: absolute;
+			border: 1px solid black;
+			text-align: center;
+		}
+
+		/**#p1 {
+			background-color: #A52A2A;
+			position: absolute;
+			left: 65px;
+		}**/
+		/* Simple Responsive Framework. */
+		.row div {
+			position: relative;
+			top: 10px;
+			background-color: #808080;
+			
+		}
+		body {
+    		background-image: url("paper.gif");
+		}
+	/* To repeat an image vertically, set background-repeat: repeat-y; To repeat an image horizontally, set background-repeat: repeat-x;*/
+		body {
+    background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;
+	}
+
+	body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+	}
+
+	body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+	}
+
+	/* 
+	When using the shorthand property the order of the property values is:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+*/
+
+		
+	/******** Desktop devices only *********/
+	@media (min-width: 992px){
+		.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+			float: left;
+			border: 1px solid black;
+		}
+		/* 100/12 */	
+		.col-lg-1 {
+			width: 8.33%;
+		}
+		/* (100/12)*2 */	
+		.col-lg-2 {
+			width: 16.66%;
+		}
+		/* (100/12)*3 */	
+		.col-lg-3 {
+			width: 25%;
+		}
+		/* (100/12)*4 */	
+		.col-lg-4 {
+			width: 33%;
+		}
+		/* (100/12)*5 */	
+		.col-lg-5 {
+			width: 41.66%;
+		}
+		/* (100/12)*6 */	
+		.col-lg-6 {
+			width: 50%;
+		}
+		/* (100/12)*7 */	
+		.col-lg-7 {
+			width: 58.33%;
+		}
+		/* (100/12)*8 */	
+		.col-lg-8 {
+			width: 66.66%;
+		}
+		/* (100/12)*9 */	
+		.col-lg-9 {
+			width: 74.99%;
+		}
+		/* (100/12)*10 */	
+		.col-lg-10 {
+			width: 83.33%;
+		}
+		/* (100/12)*11 */	
+		.col-lg-11 {
+			width: 91.66%;
+		}
+		/* (100/12)*12 */	
+		.col-lg-12 {
+			width: 100%;
+		}
+	}
+
+
+	/******** Tablet devices only  *********/
+	@media (min-width: 768px) and (max-width: 991px) {
+		.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+			float: left;
+			border: 1px solid black;
+	}
+	/* 100/12 */	
+		.col-md-1 {
+			width: 8.33%;
+		}
+		/* (100/12)*2 */	
+		.col-md-2 {
+			width: 16.66%;
+		}
+		/* (100/12)*3 */	
+		.col-md-3 {
+			width: 25%;
+		}
+		/* (100/12)*4 */	
+		.col-md-4 {
+			width: 33%;
+		}
+		/* (100/12)*5 */	
+		.col-md-5 {
+			width: 41.66%;
+		}
+		/* (100/12)*6 */	
+		.col-md-6 {
+			width: 50%;
+		}
+		/* (100/12)*7 */	
+		.col-md-7 {
+			width: 58.33%;
+		}
+		/* (100/12)*8 */	
+		.col-md-8 {
+			width: 66.66%;
+		}
+		/* (100/12)*9 */	
+		.col-md-9 {
+			width: 74.99%;
+		}
+		/* (100/12)*10 */	
+		.col-md-10 {
+			width: 83.33%;
+		}
+		/* (100/12)*11 */	
+		.col-md-11 {
+			width: 91.66%;
+		}
+		/* (100/12)*12 */	
+		.col-md-12 {
+			width: 100%;
+		}
+
+
+	}
+
+
+	</style>
+
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<div class="row">
+	<div class="col-lg-4 col-md-6">
+		<div class="section">
+			<h2 class = "chicken">Chicken</h2><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p></div></div>
+	<div class="col-lg-4 col-md-6">
+		<div class="section">
+			<h2 class = "beef">Beef</h2><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p></div></div>
+	<div class="col-lg-4 col-md-12">
+		<div class="section">
+			<h2 class = "sushi">Sushi</h2><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p></div></div>
+</div>
+</body>
+</html>

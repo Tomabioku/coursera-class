@@ -1,0 +1,29 @@
+/*Add your CSS below!*/
+div {
+    background-color: #cc0000;
+    height: 100px;
+    width: 100px;
+}
+
+
+td {
+    height: 50px;
+    border: 1px dashed blue;
+}
+
+table {
+    border: 1px solid black;
+}
+
+/* Text decoration removes the underline from webpage links*/
+a {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+img {
+    height: 100px;
+    width: 300px;
+    border: 1px solid #4682b4;
+}
+

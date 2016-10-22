@@ -1,0 +1,281 @@
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\Users\Toma>brower-sync --version
+'brower-sync' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Toma>browser-sync --version
+2.14.3
+
+C:\Users\Toma>git clone https://github.com/Tomabioku/coursera-class.git
+Cloning into 'coursera-class'...
+remote: Counting objects: 11, done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (11/11), done.
+
+C:\Users\Toma>dir
+ Volume in drive C is OS
+ Volume Serial Number is 6EDA-31D4
+
+ Directory of C:\Users\Toma
+
+09/01/2016  02:03 PM    <DIR>          .
+09/01/2016  02:03 PM    <DIR>          ..
+08/06/2015  11:35 AM    <DIR>          .cache
+06/04/2016  03:25 PM    <DIR>          .config
+09/23/2014  11:01 AM    <DIR>          .eclipse
+09/23/2014  11:49 AM    <DIR>          .idlerc
+09/23/2014  11:01 AM    <DIR>          .jmc
+07/31/2016  10:47 PM    <DIR>          .matplotlib
+08/31/2016  07:29 PM             2,267 .octave_hist
+11/21/2015  03:19 PM    <DIR>          .oracle_jre_usage
+04/27/2015  07:36 PM             1,234 .recently-used.xbel
+08/07/2016  09:03 PM    <DIR>          .VirtualBox
+08/20/2016  07:14 PM    <DIR>          Contacts
+09/01/2016  02:03 PM    <DIR>          coursera-class
+02/15/2015  11:10 PM    <DIR>          cworkspace
+08/28/2016  11:22 PM    <DIR>          Desktop
+08/30/2016  11:29 AM    <DIR>          Documents
+09/01/2016  01:11 PM    <DIR>          Downloads
+08/28/2016  01:06 PM    <DIR>          Dropbox
+08/20/2016  07:14 PM    <DIR>          Favorites
+05/01/2015  07:15 AM    <DIR>          jpgfdraw-settings
+08/20/2016  07:15 PM    <DIR>          Links
+08/20/2016  07:14 PM    <DIR>          Music
+09/12/2011  01:59 AM    <DIR>          My Backup Files
+05/15/2016  04:52 PM    <DIR>          New folder
+08/27/2016  12:14 PM    <DIR>          OneDrive
+08/01/2015  02:52 PM    <DIR>          Oracle
+08/24/2016  11:51 AM    <DIR>          Pictures
+05/08/2016  07:21 PM    <DIR>          pip
+08/20/2016  07:14 PM    <DIR>          Saved Games
+08/20/2016  07:14 PM    <DIR>          Searches
+07/30/2016  09:14 AM    <DIR>          SQLite
+03/25/2015  09:53 AM    <DIR>          Tracing
+08/20/2016  07:14 PM    <DIR>          Videos
+08/07/2016  08:33 PM    <DIR>          VirtualBox VMs
+12/23/2015  08:55 PM    <DIR>          workspace
+               2 File(s)          3,501 bytes
+              34 Dir(s)  91,697,557,504 bytes free
+
+C:\Users\Toma>cd coursera-class
+
+C:\Users\Toma\coursera-class>dir
+ Volume in drive C is OS
+ Volume Serial Number is 6EDA-31D4
+
+ Directory of C:\Users\Toma\coursera-class
+
+09/01/2016  02:03 PM    <DIR>          .
+09/01/2016  02:03 PM    <DIR>          ..
+09/01/2016  02:03 PM                45 README.md
+               1 File(s)             45 bytes
+               2 Dir(s)  91,697,491,968 bytes free
+
+C:\Users\Toma\coursera-class>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+C:\Users\Toma\coursera-class>git checkout gh-pages
+Branch gh-pages set up to track remote branch gh-pages from origin.
+Switched to a new branch 'gh-pages'
+
+C:\Users\Toma\coursera-class>dir
+ Volume in drive C is OS
+ Volume Serial Number is 6EDA-31D4
+
+ Directory of C:\Users\Toma\coursera-class
+
+09/01/2016  02:05 PM    <DIR>          .
+09/01/2016  02:05 PM    <DIR>          ..
+09/01/2016  02:05 PM             4,617 index.html
+09/01/2016  02:05 PM             1,999 params.json
+09/01/2016  02:05 PM    <DIR>          stylesheets
+               2 File(s)          6,616 bytes
+               3 Dir(s)  91,698,036,736 bytes free
+
+C:\Users\Toma\coursera-class>mkdir site
+
+C:\Users\Toma\coursera-class>cd site
+
+C:\Users\Toma\coursera-class\site>dir
+ Volume in drive C is OS
+ Volume Serial Number is 6EDA-31D4
+
+ Directory of C:\Users\Toma\coursera-class\site
+
+09/01/2016  02:06 PM    <DIR>          .
+09/01/2016  02:06 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  91,697,971,200 bytes free
+
+C:\Users\Toma\coursera-class\site>dir
+ Volume in drive C is OS
+ Volume Serial Number is 6EDA-31D4
+
+ Directory of C:\Users\Toma\coursera-class\site
+
+09/01/2016  02:08 PM    <DIR>          .
+09/01/2016  02:08 PM    <DIR>          ..
+09/01/2016  02:10 PM               116 index.html
+               1 File(s)            116 bytes
+               2 Dir(s)  91,696,820,224 bytes free
+
+C:\Users\Toma\coursera-class\site>git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Toma\coursera-class\site>cd ..
+
+C:\Users\Toma\coursera-class>git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        site/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Toma\coursera-class>git add .
+
+C:\Users\Toma\coursera-class>git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   site/index.html
+
+
+C:\Users\Toma\coursera-class>git commit -m "My First Page."
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <(null)>) not allowed
+
+C:\Users\Toma\coursera-class>git config --global user.email "tomabioku@gmail.com"
+
+C:\Users\Toma\coursera-class>git config --global user.name "Tomabioku"
+
+C:\Users\Toma\coursera-class>git commit -m "My First Page."
+[gh-pages 32ffb46] My First Page.
+ 1 file changed, 9 insertions(+)
+ create mode 100644 site/index.html
+
+C:\Users\Toma\coursera-class>git user.email "tomabioku@gmail.com"
+git: 'user.email' is not a git command. See 'git --help'.
+
+C:\Users\Toma\coursera-class>git config user.email "tomabioku@gmail.com"
+
+C:\Users\Toma\coursera-class>git config user.name "Tomabioku"
+
+C:\Users\Toma\coursera-class>git status
+On branch gh-pages
+Your branch is ahead of 'origin/gh-pages' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+C:\Users\Toma\coursera-class>git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/': Tomabioku
+Password for 'https://Tomabioku@github.com/':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Tomabioku/coursera-class.git/'
+
+C:\Users\Toma\coursera-class>git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/': tomabioku@gmail.com
+Password for 'https://tomabioku@gmail.com@github.com/':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Tomabioku/coursera-class.git/'
+
+C:\Users\Toma\coursera-class>git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/': tomabioku@gmail.com
+Password for 'https://tomabioku@gmail.com@github.com/':
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 384 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/Tomabioku/coursera-class.git
+   dd69bfc..32ffb46  gh-pages -> gh-pages
+
+C:\Users\Toma\coursera-class>git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   site/index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Toma\coursera-class>git add site/index.html
+
+C:\Users\Toma\coursera-class>git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   site/index.html
+
+
+C:\Users\Toma\coursera-class>git commit -m "Small addition to our page content"
+[gh-pages 16092af] Small addition to our page content
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+C:\Users\Toma\coursera-class>git status
+On branch gh-pages
+Your branch is ahead of 'origin/gh-pages' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+C:\Users\Toma\coursera-class>git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 409 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/Tomabioku/coursera-class.git
+   32ffb46..16092af  gh-pages -> gh-pages
+
+C:\Users\Toma\coursera-class>
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\Users\Toma>cd coursera-class/site
+
+C:\Users\Toma\coursera-class\site>browser-sync start --server --directory --files "*"
+[BS] Access URLs:
+ --------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.252.1:3000
+ --------------------------------------
+          UI: http://localhost:3001
+ UI External: http://192.168.252.1:3001
+ --------------------------------------
+[BS] Serving files from: ./
+[BS] Watching files...

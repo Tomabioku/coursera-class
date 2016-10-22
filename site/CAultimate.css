@@ -1,0 +1,17 @@
+/*Add your CSS below!*/
+p {
+    font-family: Garamond;
+}
+
+body > p {
+    font-weight: bold;
+}
+
+div > p {
+    color: #7AC5CD;
+}
+
+ul p {
+    color: #000000;
+    text-decoration: underline;
+}
